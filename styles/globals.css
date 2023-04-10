@@ -5,8 +5,40 @@
   font-style: normal;
 }
 
+:root {
+  --color-white-50: #FAFCFF;
+  --color-white-100: #EBEBEB;
+
+  --color-gray-100: #D9D9D9;
+  --color-grey-200: #888888;
+
+  --color-font-primary: #232323;
+  --color-font-point: #23375E;
+
+  --color-primary-50: #EFF4F3;
+  --color-primary-100: #CDDEE8;
+  --color-primary-200: #232323;
+
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 0.75rem;
+  --size-4: 1rem;
+  --size-5: 1.25rem;
+  --size-6: 1.5rem;
+  --size-8: 2rem;
+  --size-10: 2.5rem;
+  --size-12: 3rem;
+  --size-16: 4rem;
+  --size-20: 5rem;
+  --size-40: 10rem;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, JUA, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
