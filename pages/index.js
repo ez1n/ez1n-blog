@@ -1,7 +1,9 @@
+import Profile from "@/components/profile/Profile/Profile";
+
 export default function MainPage() {
   return (
     <>
-      <h1>MainPage</h1>
+      <Profile/>
     </>
   );
 }
