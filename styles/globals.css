@@ -18,6 +18,7 @@
   --color-primary-50: #EFF4F3;
   --color-primary-100: #CDDEE8;
   --color-primary-200: #232323;
+  --color-primary-300: #23375E;
 
   --size-1: 0.25rem;
   --size-2: 0.5rem;
@@ -38,6 +39,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: var(--color-primary-50);
   font-family: -apple-system, JUA, sans-serif;
 }
 
