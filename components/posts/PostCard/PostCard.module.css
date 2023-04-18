@@ -1,0 +1,52 @@
+.card{
+  cursor: pointer;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background-color: var(--color-primary-300);
+}
+
+.imageBox{
+  width: 100%;
+  height: 100%;
+  max-height: 10rem;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.postInfo{
+  width: 100%;
+  margin-top: 1em;
+  display: grid;
+  gap: 0.5em;
+}
+
+.info {
+  color: var(--color-white-100);
+  margin: 0;
+}
+
+.title, .description {
+  width: 100%;
+  text-align: start;
+}
+
+.title{
+  font-size: 1.5em;
+}
+
+.description{
+  font-size: 1.3em;
+}
+
+.date {
+  width: 100%;
+  text-align: end;
+}

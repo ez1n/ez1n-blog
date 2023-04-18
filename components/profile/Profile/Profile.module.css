@@ -1,0 +1,66 @@
+.profile {
+  margin: 3em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.greet {
+  margin: 1.5em;
+  text-align: center;
+}
+
+.greetings {
+  margin: 0;
+  font-size: 2em
+}
+
+.contact {
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.contact li {
+  margin: 0 1em;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .greetings {
+    font-size: 1.7rem;
+  }
+
+  .info{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .profile {
+    margin: 1.5em 0;
+  }
+
+  .greet {
+    margin: 0.7em;
+  }
+
+  .greetings {
+    font-size: 1.5rem;
+  }
+
+  .info{
+    font-size: 1rem;
+  }
+}
