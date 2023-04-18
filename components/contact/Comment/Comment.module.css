@@ -1,0 +1,36 @@
+.comment {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+}
+
+@media screen and (max-width: 1240px) {
+  .comment {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .comment {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comment {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .comment {
+    width: 90%;
+  }
+}

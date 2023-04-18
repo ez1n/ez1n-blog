@@ -1,9 +1,15 @@
 import React from "react";
+import styles from "./Comment.module.css";
+import CommentForm from "@/components/contact/CommentForm/CommentForm";
+import CommentsList from "@/components/contact/CommentsList/CommentsList";
 
-export default function Comment (){
+export default function Comment() {
   return (
-    <>
-      <h1>To Ez1n.n</h1>
-    </>
+    <section className={styles.comment}>
+      <h1 className={styles.title}>To Ez1n.n</h1>
+
+      <CommentForm/>
+      <CommentsList/>
+    </section>
   )
 }

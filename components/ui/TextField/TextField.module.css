@@ -11,7 +11,7 @@
   border-radius: 0.2em;
   border: 1px var(--color-gray-100) solid;
   box-sizing: border-box;
-  background-color: unset;
+  background-color: var(--color-white-50);
   font-family: -apple-system, JUA, sans-serif;
 }
 
