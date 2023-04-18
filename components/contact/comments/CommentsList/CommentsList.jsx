@@ -1,5 +1,5 @@
 import styles from "./CommentsList.module.css";
-import CommentItem from "@/components/contact/CommentItem/CommentItem";
+import CommentItem from "@/components/contact/comments/CommentItem/CommentItem";
 
 const COMMENTS_DUMMY_DATA = [
   {id: 1, content: "예진짱!", createAt: "2023.03.28"},
