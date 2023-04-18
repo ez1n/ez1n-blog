@@ -1,0 +1,10 @@
+.button {
+  cursor: pointer;
+  padding: 0.3em 1.2em;
+  color: var(--color-font-point);
+  background-color: var(--color-gray-100);
+  border: 2px var(--color-font-point) solid;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  font-family: -apple-system, JUA, sans-serif;
+}

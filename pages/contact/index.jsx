@@ -1,9 +1,12 @@
 import React from 'react';
+import ContactForm from "@/components/contact/ContactForm/ContactForm";
+import Comment from "@/components/contact/Comment/Comment";
 
 export default function ContactPage(props) {
   return (
     <>
-      <h1>Contact Page</h1>
+      <ContactForm/>
+      <Comment/>
     </>
   );
 }
