@@ -8,7 +8,6 @@
 .input, .button {
   margin: 0.2em;
   border-radius: 0.2em;
-  border: 1px var(--color-primary-200) solid;
   box-shadow: 0 0 5px 2px var(--color-gray-100);
   -webkit-box-shadow: 0 0 5px 2px var(--color-gray-100);
   -moz-box-shadow: 0 0 5px 2px var(--color-gray-100);
