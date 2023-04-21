@@ -1,0 +1,17 @@
+.logo {
+  cursor: pointer;
+  color: var(--color-font-point);
+  font-size: var(--size-10);
+}
+
+@media screen and (max-width: 960px) {
+  .logo {
+    font-size: var(--size-8);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo {
+    font-size: var(--size-6);
+  }
+}

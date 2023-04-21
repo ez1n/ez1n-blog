@@ -1,4 +1,4 @@
-import Profile from "@/components/organism/Profile/Profile";
+import React from 'react';
 import AllPosts from "@/components/organism/AllPosts/AllPosts";
 
 const DUMMY_DATA = [
@@ -60,12 +60,12 @@ const DUMMY_DATA = [
   },
 ]
 
-export default function MainPage() {
+export default function ProjectPage(props) {
   return (
     <>
-      <Profile/>
-      <AllPosts title='Featured Projects' posts={DUMMY_DATA} featured={true} />
-      <AllPosts title='All' posts={DUMMY_DATA} />
+      <h1>Projects</h1>
+
+      <AllPosts title={""} posts={DUMMY_DATA} featured={false} />
     </>
   );
 }
