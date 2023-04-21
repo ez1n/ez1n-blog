@@ -1,0 +1,34 @@
+.comment {
+  width: 50%;
+  max-width: 50rem;
+  margin: 2em auto;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1240px) {
+  .comment {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .comment {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comment {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .comment {
+    width: 90%;
+  }
+}

@@ -1,0 +1,20 @@
+.item {
+  margin: 0.5em 0;
+  padding: 0.1em 1em;
+  border-radius: 0.2em;
+  border: 1px var(--color-primary-300) solid;
+  background-color: var(--color-white-50);
+
+  box-shadow: 0 0 5px 2px var(--color-gray-100);
+  -webkit-box-shadow: 0 0 5px 2px var(--color-gray-100);
+  -moz-box-shadow: 0 0 5px 2px var(--color-gray-100);
+}
+
+.date {
+  text-align: end;
+  color: var(--color-font-light-gray);
+}
+
+.content {
+  color: var(--color-font-gray);
+}
