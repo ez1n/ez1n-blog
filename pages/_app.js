@@ -1,8 +1,13 @@
 import '@/styles/globals.css'
 import Navbar from "@/components/organism/Navbar/Navbar";
 import Head from "next/head";
+import Fab from "@/components/atoms/Fab/Fab";
 
 export default function App({Component, pageProps}) {
+  const clickFab = () => {
+    console.log("click")
+  }
+
   return (
     <>
       <Head>
@@ -11,6 +16,7 @@ export default function App({Component, pageProps}) {
       </Head>
       <Navbar/>
       <Component {...pageProps} />
+      <Fab onClick={clickFab}/>
     </>
   )
 }
