@@ -1,13 +1,9 @@
 import '@/styles/globals.css'
 import Navbar from "@/components/organism/Navbar/Navbar";
 import Head from "next/head";
-import Fab from "@/components/atoms/Fab/Fab";
+import Contact from "@/components/organism/Contact/Contact";
 
 export default function App({Component, pageProps}) {
-  const clickFab = () => {
-    console.log("click")
-  }
-
   return (
     <>
       <Head>
@@ -15,8 +11,10 @@ export default function App({Component, pageProps}) {
         <title>ez1n's Blog</title>
       </Head>
       <Navbar/>
+
       <Component {...pageProps} />
-      <Fab onClick={clickFab}/>
+
+      <Contact/>
     </>
   )
 }
