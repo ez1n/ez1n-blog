@@ -1,5 +1,6 @@
 import React from 'react';
 import AllPosts from "@/components/organism/AllPosts/AllPosts";
+import PostHeader from "@/components/organism/PostHeader/PostHeader";
 
 const DUMMY_DATA = [
   {
@@ -63,8 +64,7 @@ const DUMMY_DATA = [
 export default function ProjectPage(props) {
   return (
     <>
-      <h1>Projects</h1>
-
+      <PostHeader/>
       <AllPosts title={""} posts={DUMMY_DATA} featured={false} />
     </>
   );

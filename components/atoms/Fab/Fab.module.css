@@ -1,0 +1,14 @@
+.button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 0.3rem;
+  font-size: 2.3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: var(--color-primary-300);
+  background-color: var(--color-white-50);
+}

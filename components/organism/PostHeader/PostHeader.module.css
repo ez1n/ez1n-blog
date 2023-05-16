@@ -1,0 +1,28 @@
+.header {
+  width: 65vw;
+  display: flex;
+  margin: 1em auto auto;
+}
+
+.filter {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.filter li {
+  margin: 0 0.5em;
+  width: 8em;
+}
+
+@media screen and (max-width: 1240px) {
+  .header {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    width: 90vw;
+  }
+}
