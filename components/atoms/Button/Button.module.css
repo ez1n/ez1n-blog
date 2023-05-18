@@ -10,6 +10,17 @@
   font-family: -apple-system, JUA, sans-serif;
 }
 
+.secondary {
+  border-color: var(--color-primary-300);
+  background-color: var(--color-blue-75);
+}
+
+.error {
+  color: var(--color-red-200);
+  border-color: var(--color-red-200);
+  background-color: var(--color-red-50);
+}
+
 @media screen and (max-width: 768px) {
   .button {
     padding: 0.3em 0.8em;

@@ -15,9 +15,7 @@ export default function CommentForm() {
 
   return (
     <form className={styles.form}>
-      <div className={styles.input}>
-        <TextField placeholder="하고싶은 말이 있나요~?" inputRef={commentRef}/>
-      </div>
+      <TextField placeholder="하고싶은 말이 있나요~?" inputRef={commentRef}/>
 
       <div className={styles.button}>
         <Button type="submit" text="Enter" onClick={sendComment}/>

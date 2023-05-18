@@ -2,28 +2,33 @@
   position: fixed;
   bottom: 6rem;
   right: 2rem;
+  height: 30rem;
 }
 
 .title {
   color: var(--color-font-point);
-  margin:  0.5em 0;
+  margin: 0.5em 0;
 }
 
 .contents {
+  width: 21rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 21rem;
-}
-
-.contents li {
-  margin: 1em 0;
 }
 
 .info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   list-style: none;
   padding-left: 0;
   margin: 0;
+}
+
+.info li {
+  margin: 0.5em 0;
 }
 
 .actions {
@@ -34,4 +39,11 @@
 
 .actions div {
   flex: 0.45;
+}
+
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
