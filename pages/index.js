@@ -64,8 +64,8 @@ export default function MainPage() {
   return (
     <>
       <Profile/>
-      <AllPosts title='Featured Projects' posts={DUMMY_DATA} featured={true} />
-      <AllPosts title='All' posts={DUMMY_DATA} />
+      <AllPosts title='Projects' posts={DUMMY_DATA}/>
+      <AllPosts title='Records' posts={DUMMY_DATA}/>
     </>
   );
 }

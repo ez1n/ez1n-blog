@@ -1,16 +1,19 @@
-.multiline {
+.multiline,
+.input {
   box-sizing: border-box;
   width: 100%;
+  margin: 0.3em 0;
+}
+
+.multiline {
   resize: none;
 }
 
 .input {
-  width: 100%;
   padding: 0.4em;
   font-size: 1.4em;
   border-radius: 0.2em;
   border: 1px var(--color-gray-100) solid;
-  box-sizing: border-box;
   background-color: var(--color-white-50);
   font-family: -apple-system, JUA, sans-serif;
 }

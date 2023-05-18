@@ -1,7 +1,9 @@
 .paper {
+  height: 100%;
   padding: 1em 2em;
   border: 1px var(--color-primary-200) solid;
   border-radius: 0.3em;
+  box-sizing: border-box;
   color: var(--color-font-primary);
   background-color: var(--color-white-50);
 

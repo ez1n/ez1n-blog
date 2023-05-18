@@ -1,18 +1,31 @@
+import {useEffect, useRef, useState} from "react";
+
 import Fab from "@/components/atoms/Fab/Fab";
 import ContactNotice from "@/components/molecules/ContactNotice/ContactNotice";
-import {useState} from "react";
 
 export default function Contact() {
-  const [contactOpen, setContactOpen] = useState(false);
+  const [openContact, setOpenContact] = useState(false);
+  const contactRef = useRef(null);
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (contactRef.current && !contactRef.current.contains(e.target)) {
+        setOpenContact(false);
+      }
+    };
+    window.addEventListener('mousedown', handleClick);
+
+    return () => window.removeEventListener('mousedown', handleClick);
+  }, [contactRef]);
 
   const clickFab = () => {
-    setContactOpen(prev => !prev);
+    setOpenContact(prev => !prev);
   }
 
   return (
-    <>
-      {contactOpen && <ContactNotice/>}
+    <div ref={contactRef}>
+      {openContact && <ContactNotice/>}
       <Fab onClick={clickFab}/>
-    </>
+    </div>
   )
 }

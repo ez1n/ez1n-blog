@@ -1,0 +1,16 @@
+.posts {
+  width: 65vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 1240px) {
+  .posts {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .posts {
+    width: 90vw;
+  }
+}
